@@ -1,5 +1,4 @@
-from Configuration.StandardSequences.Eras import eras
-
+import FWCore.ParameterSet.Config as cms
 process = cms.Process('MERGE')
 
 process.maxEvents = cms.untracked.PSet(
